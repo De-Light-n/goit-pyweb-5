@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-pyweb-5"
+version = "0.1.0"
+description = ""
+authors = ["DeLight <nazarchukyayko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.10.5"
+websockets = "^13.0.1"
+names = "^0.3.0"
+aiofile = "^3.8.8"
+aiopath = "^0.7.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
